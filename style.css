@@ -1,0 +1,72 @@
+*{
+    margin:0;}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px
+}
+body {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header {
+    padding: 30px 10%;
+    background-color: #ffb300;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    font-style: Arial, sans-serif;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+header a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin:0 10px;
+}
+header>* {
+    display: inline-block;
+    width:450px;
+}
+article {
+    display: flex;
+    justify-content: space-between;
+    border: 5px inset black;
+    text-align: center;
+    
+}
+.block {
+    margin: 150px 0 0 0;
+}
+.ku {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+.tv {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+#telek {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    padding: 30px 10%;
+    background-color: black;
+    font-style: Arial, sans-serif;
+}
+h4 {
+    color: white;
+}
+.ssilka {
+    padding: 12px 32px;
+    text-decoration: none;
+}
